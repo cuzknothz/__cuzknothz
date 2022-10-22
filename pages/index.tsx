@@ -8,7 +8,7 @@ const HomePage: NextPage = () => {
     const text = `I'm a Web Developer, Hardance Music Producer who loves to work hands-on — based in Vietnam.`
     return split(text, ' ').map((i, idx) => (
       <div
-        className="text inline-block translate-y-[500%] text-[#000000]  opacity-0 blur-3xl drop-shadow-sm"
+        className="text inline-block translate-y-[500%] text-[#000000]   opacity-0 blur-3xl drop-shadow-sm"
         key={idx}
       >
         {i}
